@@ -1,0 +1,66 @@
+.header {
+  padding: 25px 3%  35px;
+  width: 94%;
+  z-index: 200;
+  position: relative;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #f0f0f0;
+}
+div.header__logo {
+  display: inline-block;
+  float: left;
+  vertical-align: bottom;
+  margin-right: 7%;
+  width: 200px;
+}
+
+div.header__logo a {
+  display: block;
+  vertical-align: middle;
+  width: 50px;
+  -moz-transition: all 2s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  overflow: hidden;
+}
+div.header__logo a:hover {
+  width: 200px;
+}
+div.header__logo a:first-child {
+  margin-right: 30px;
+}
+
+div.header__enter {
+  display: inline-block;
+  float: right;
+  vertical-align: bottom;
+  padding-top: 10px;
+}
+div.header__enter a {
+  font-size: 13px;
+  color: #272727;
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-weight: bold;
+  position: relative;
+}
+div.header__enter a:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  height: 1px;
+  background-color: transparent;
+}
+div.header__enter a:hover:after {
+  background-color: #e8475c;
+}
+div.header__enter span {
+  width: 1px;
+  background-color: #939393;
+  height: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
